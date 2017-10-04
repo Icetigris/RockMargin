@@ -13,8 +13,8 @@ namespace RockMargin
 
 		public HighlightWordFormatDefinition()
 		{
-			this.BackgroundColor = Colors.LightBlue;
-			this.ForegroundColor = Colors.DarkBlue;
+			this.BackgroundColor = Colors.Purple; //was LightBlue, this is the color you'll get on startup regardless of your settings
+            this.ForegroundColor = Colors.DarkBlue;
 			this.ZOrder = 5;
 		}
 
