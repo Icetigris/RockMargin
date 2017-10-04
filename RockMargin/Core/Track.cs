@@ -1,8 +1,9 @@
-﻿using System;
+﻿// Track.cs - The "scroll thumb", i.e. the box that tracks which part of the file is currently visible.
+
+using System;
 using Microsoft.VisualStudio.Text.Editor;
 using System.Windows;
 using Microsoft.VisualStudio.Text;
-
 
 namespace RockMargin
 {

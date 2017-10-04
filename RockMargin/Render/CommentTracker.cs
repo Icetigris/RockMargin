@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿// CommentTracker.cs - Determines what code is commented out and thus needs comment-specific coloring.
 
 namespace RockMargin
 {

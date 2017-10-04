@@ -2,9 +2,6 @@
 using System.ComponentModel.Composition;
 using Microsoft.VisualStudio.Utilities;
 using System.Windows.Media;
-using System;
-using Microsoft.VisualStudio.Text.Editor;
-using Microsoft.VisualStudio.Text.Operations;
 
 namespace RockMargin
 {

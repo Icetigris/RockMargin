@@ -1,14 +1,11 @@
-﻿using System;
+﻿// RockMargin.cs - Main class for RockMargin.
+
+using System;
 using System.Windows.Controls;
 using System.Windows.Media;
 using Microsoft.VisualStudio.Text.Editor;
 using System.Windows;
 using System.Windows.Input;
-using System.Windows.Threading;
-using System.ComponentModel.Composition;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Text.Classification;
 
 namespace RockMargin
 {

@@ -1,8 +1,9 @@
-﻿using Microsoft.VisualStudio.Shell;
+﻿// OptionsPackage.cs - Defines page for RockMargin in Visual Studio's options (Tools > Options...)
+
+using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.ComponentModelHost;
 using Microsoft.VisualStudio.Shell.Interop;
-
 
 namespace RockMargin
 {

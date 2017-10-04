@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Microsoft.VisualStudio.Text.Tagging;
 using Microsoft.VisualStudio.Text.Editor;
 using Microsoft.VisualStudio.Text;
@@ -251,14 +250,14 @@ namespace RockMargin
 			}
 
 			// first, yield back the word the cursor is under (if it overlaps)
-			// note that we'll yield back the same word again in the wordspans collection; the duplication here is expected
+			// note that we'll yield back the same word again in the word_spans collection; the duplication here is expected
 			if (spans.OverlapsWith(new NormalizedSnapshotSpanCollection(current_word)))
 			{
 				if (current_word.GetText() == _word.Value.GetText())
 					yield return new TagSpan<HighlightWordTag>(current_word, new HighlightWordTag());
 			}
 
-			// second, yield all the other words in the file
+			// second, yield all the other words (that match the one the cursor is on) in the file
 			foreach (SnapshotSpan span in NormalizedSnapshotSpanCollection.Overlap(spans, word_spans))
 			{
 				if (span.GetText() == _word.Value.GetText())

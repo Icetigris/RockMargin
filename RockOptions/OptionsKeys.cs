@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// OptionsKeys.cs - Defines individual settings in RockMargin's Visual Studio option page.
+
 using Microsoft.VisualStudio.Text.Editor;
 
 namespace RockMargin

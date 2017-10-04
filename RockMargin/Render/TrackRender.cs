@@ -7,11 +7,8 @@ using System.Globalization;
 using System.Windows.Media.Imaging;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Collections;
-using Microsoft.VisualStudio.Text.Classification;
 using System.Threading;
 using System.Windows.Threading;
-
 
 namespace RockMargin
 {
@@ -315,10 +312,10 @@ namespace RockMargin
 					_thread.Priority = ThreadPriority.Lowest;
 					_thread.Start();
 				}
-				else //	deffer request execution
+				else //	defer request execution
 					_invalidateText = true;
 			}
-			else //	initial layouting is not complited yet
+			else //	initial layouting is not completed yet
 				Invalidate(MarginParts.Text | MarginParts.Batched);
 		}
 

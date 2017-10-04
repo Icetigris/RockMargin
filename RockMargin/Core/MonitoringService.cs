@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿// MonitoringService.cs - Telemetry and crash reporting.
+
+using System;
 using System.Net;
-using System.Text;
 using System.Threading;
-using System.Timers;
-using System.Xml;
 
 namespace RockMargin
 {
